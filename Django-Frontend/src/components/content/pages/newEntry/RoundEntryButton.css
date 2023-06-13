@@ -1,0 +1,23 @@
+.add-button{
+    border-radius: 50%;
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 50px;
+    max-height: 50px;
+    background: #F18805;
+    border-color: #A02C47;
+    border-width: 2px;
+    font-size: smaller;
+
+
+}
+
+.dashboard-button {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3px;
+    position: relative;
+    z-index: 10;
+
+}

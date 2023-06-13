@@ -1,0 +1,44 @@
+.content-Dashboard{
+    display: flex;
+
+    background: #cb92ac;
+    width: 100%;
+    gap: 12px;
+    overflow: auto;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+
+}
+
+
+.content-Dashboard > *{
+    background: #cb92ac;
+
+    min-height: 0;
+    display: flex;
+
+    flex-direction: column;
+}
+
+.dashboard-item{
+     border: 2px #A02C47 solid;
+    padding: 10px;
+}
+
+.page-title{
+    padding:2%;
+    min-width: 100%;
+}
+
+.space{
+    min-width: 5px;
+    min-height: 5px;
+    max-width: 5px;
+    max-height: 5px;
+    background: aquamarine;
+}
+.display-form{
+    min-width: 100%;
+}

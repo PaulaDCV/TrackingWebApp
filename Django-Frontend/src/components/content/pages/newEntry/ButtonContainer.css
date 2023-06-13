@@ -1,0 +1,33 @@
+.new-entry-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #cb92ac;
+    padding: 5px;
+    min-width: 100%;
+    position: relative;
+}
+
+
+.new-entry-container:after
+{
+    content : "";
+    position: absolute;
+    left: 20%;
+    height  :100%;
+    width   : 60%;  /* or 100px */
+    border: 1px solid #AF5A80;
+    border-radius: 5px;
+    z-index: 1;
+    box-shadow: 5px 10px;;
+}
+
+.buttons-container{
+    display: flex;
+     flex-direction: row;
+    justify-content: center;
+    background: #cb92ac;
+    padding: 5px;
+    min-width: 100%;
+    position: relative
+}

@@ -1,0 +1,47 @@
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+      background-color: #b9314f !important;
+      border-bottom: none;
+      color: #cb92ac !important;
+
+}
+
+.nav-link:hover{
+      border: none;
+            color: #A02C47 !important;
+
+ }
+
+.selectButton{
+      color: #b9314f;
+}
+.nav-tabs{
+      width:100%;
+      margin: 0;
+      position: absolute;
+      border:none !important;
+
+}
+
+.modal-body{
+      background-color: #b9314f !important;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+
+
+}
+.containerModal{
+      background-color: #cb92ac;
+      border-radius: 10px;
+
+
+}
+.modal-content{
+      background-color:transparent !important;
+      border: none !important;
+
+}
+
+.closeB{
+      color: #b9314f;
+}
+
